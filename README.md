@@ -8,7 +8,7 @@ Sorting arraylist in alphabetical order:
   
 
 Adding elements into unique array/Counting frequency of word:
-  this algorithm has the time complexity of O(n) since we have to loop through each word to find any matches and increment the count.
+  this algorithm has the time complexity of O(n) since we have to loop through each word to find any matches and increment the count at the same time.
   
 
 
