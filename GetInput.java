@@ -72,8 +72,14 @@ public class GetInput{
 						System.out.println("Tags with " + occurences + " occurences: ");
 						
 						System.out.println("* " + GetCount.unique.get(i));
+						
+						found = true;
 					}
 					
+				}
+				if(found == false) {
+					
+					System.out.println("Can't find tags with "+ search+" many occurences.");
 				}
 				
 			}else{
