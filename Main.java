@@ -11,7 +11,9 @@ public class Main{
 		
 		GetCount getCount = new GetCount();
 		
-		buffer.bufferFile();  //read the file using buffer reader.
+		String file = args[0];
+		
+		buffer.bufferFile(file);  //read the file using buffer reader.
 		
 		getCount.sortArray();  // transfer value from bufferfile to arraylist. 
 		
