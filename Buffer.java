@@ -13,7 +13,7 @@ public class Buffer {
 	
 	int count;
 	
-	 void bufferFile() throws FileNotFoundException {
+	 void bufferFile(String fileName) throws FileNotFoundException {
 		
 		BufferedReader br = null;
 		
@@ -21,7 +21,7 @@ public class Buffer {
 		
 		try {
 			
-			br = new BufferedReader(new FileReader("tags.csv"));
+			br = new BufferedReader(new FileReader(fileName));
 			
 			line = br.readLine();
 			
